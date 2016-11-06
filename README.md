@@ -4,5 +4,7 @@
 	
 	2. telegraf.conf: telegraf的配置文件 ; 推送到目录：/etc/telegraf/telegraf.conf ; 推送后需重启telegraf: service restart telegraf.
 	
-	3. hosts：媒体服务器统一hosts文件 ; 推送到目录：/etc/hosts .
+	3. hosts：媒体服务器统一hosts文件 ; 推送到目录：/etc/hosts
+
+    4. mynetstat.sh: 自定义端口监控脚本 ; 推送到目录：/etc/telegraf/mynetstat.sh
 	
